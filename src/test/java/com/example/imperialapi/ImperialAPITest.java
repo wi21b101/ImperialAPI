@@ -19,4 +19,15 @@ public class ImperialAPITest {
         assertEquals(expected, result);
 
     }
+
+    @Test
+    void kilogramTest(){
+        double stone = 1;
+
+        double expected = 6.35;
+
+        double result = imperialAPI.kilogram(stone);
+
+        assertEquals(expected, result);
+    }
 }
